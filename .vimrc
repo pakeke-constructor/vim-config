@@ -45,6 +45,18 @@ onoremap is i"
 
 
 
+" remap `t` to mean change in []
+onoremap aT at
+onoremap at a[
+onoremap iT it
+onoremap it i[
+
+
+
+" Relative line numbers
+set number relativenumber
+set nu rnu
+
 
 
 
