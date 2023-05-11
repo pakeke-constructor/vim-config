@@ -2,10 +2,8 @@
 " Remapping escape to be easier
 " Either j k  or  k j  works.
 inoremap kj <esc>
-vnoremap kj <esc>
 
 inoremap jk <esc>
-vnoremap jk <esc>
 
 
 
@@ -39,14 +37,14 @@ vnoremap gj G
 
 
 " Moving back and forward between tabs
-nnoremap t <c-^> <CR> 
+nnoremap t :tabnext
 
 
 " Easier access to :
 nnoremap <CR> :
 
-
-
+onoremap as a"
+onoremap is i"
 
 
 
