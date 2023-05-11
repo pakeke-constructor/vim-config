@@ -11,8 +11,7 @@ inoremap jk <esc>
 " q = jump backwards through words 
 nnoremap q b
 vnoremap q b
-nnoremap yq yb
-nnoremap dq db
+onoremap q b
 
 
 " Rebind ! to macro key, (since q is now used)
@@ -21,15 +20,13 @@ nnoremap ! q
 
 " W = Jump to end of line
 nnoremap W $
-nnoremap dW d$
-nnoremap yW y$
+onoremap W $
 vnoremap W $
 
 " Q = Jump to start of line
 nnoremap Q ^
 vnoremap Q ^
-nnoremap dQ d^
-nnoremap yQ y^
+onoremap Q ^
 
 " Goto bottom of page
 nnoremap gj G
