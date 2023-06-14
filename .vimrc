@@ -7,6 +7,42 @@ inoremap jk <esc>
 
 
 
+"  VSCode vim config in settings.json
+"  Use gh, gl to move between panes
+"  Use gg to search files
+" 
+"    "vim.normalModeKeyBindings": [
+"        {
+"            "before": ["g","h"],
+"            "commands": [
+"                {
+"                    "args": [],
+"                    "command": "workbench.action.focusFirstEditorGroup"
+"                }
+"            ]
+"        },
+"        {
+"            "before": ["g","l"],
+"            "commands": [
+"                {
+"                    "args": [],
+"                    "command": "workbench.action.focusSecondEditorGroup"
+"                }
+"            ]
+"        },
+"        {
+"            "before": ["g","g"],
+"            "commands": [
+"                {
+"                    "args": [],
+"                    "command": "workbench.action.quickOpen"
+"                }
+"            ]
+"        }
+"    ],
+"
+
+
 
 " q = jump backwards through words 
 nnoremap q b
@@ -32,16 +68,16 @@ onoremap Q ^
 nnoremap gj G
 vnoremap gj G
 
+" Goto top of page
+nnoremap gk gg
+vnoremap gk gg
 
-" Moving back and forward between tabs
-nnoremap t :tabnext
 
 
-" Easier access to :
-nnoremap <CR> :
 
 onoremap as a"
 onoremap is i"
+
 
 
 
